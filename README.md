@@ -59,32 +59,36 @@ Si deseas clonar este repositorio y ejecutar las pruebas automatizadas en tu equ
 
 1. **Clonar el repositorio:**
 
-   ```bash
-   git clone [https://github.com/Nelicah/saucedemo-qa-manual](https://github.com/Nelicah/saucedemo-qa-manual)
-   cd saucedemo-qa-manual
-   ```
+```bash
+ git clone https://github.com/Nelicah/saucedemo-qa-manual.git
+ cd saucedemo-qa-manual
+```
 
 2. **Instalar dependencias**
 
-   ```bash
-   pnpm install
-   ```
+```bash
+ pnpm install
+```
 
 3. Ejecutar las pruebas automatizadas
-   - Ejecutar en modo headless (por defecto):
-   ```bash
-   pnpm exec playwright test
-   ```
 
-   - Ejecutar visualizando el navegador:
-   ```bash
-   pnpm exec playwright test --headed
-   ```
+- Ejecutar en modo headless (por defecto):
 
-   - Ver el reporte HTML detallado:
-   ```bash
-   pnpm exec playwright showreport
-   ```
+```bash
+ pnpm exec playwright test
+```
+
+- Ejecutar visualizando el navegador:
+
+```bash
+pnpm exec playwright test --headed
+```
+
+- Ver el reporte HTML detallado:
+
+```bash
+pnpm exec playwright showreport
+```
 
 ---
 
