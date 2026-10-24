@@ -60,8 +60,8 @@ Si deseas clonar este repositorio y ejecutar las pruebas automatizadas en tu equ
 1. **Clonar el repositorio:**
 
 ```bash
- git clone https://github.com/Nelicah/saucedemo-qa-manual.git
- cd saucedemo-qa-manual
+ git clone https://github.com/Nelicah/saucedemo-qa.git
+ cd saucedemo-qa
 ```
 
 2. **Instalar dependencias**
